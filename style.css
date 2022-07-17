@@ -100,11 +100,24 @@ li:nth-child(4) a:hover {
   padding: 20px 50px;
 }
 .intro {
+  display: flex;
+  flex-direction: column;
   padding: 0 10px 0 50px;
   text-align: center;
   font-size: 2rem;
   color: #fff;
   max-width: 300px;
+}
+.intro > a {
+  display: block;
+  font-size: 1rem;
+  background-color: #00ffbb;
+  width: 50%;
+  align-self: center;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+  color: #000;
+  border-radius: 3px;
 }
 
 #first-line,
@@ -276,6 +289,13 @@ li:nth-child(4) a:hover {
 .contact-links {
   display: flex;
   gap: 2rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
 .contact-me a i {
