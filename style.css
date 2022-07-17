@@ -301,6 +301,10 @@ footer {
   .main {
     flex-direction: column;
   }
+
+  .intro {
+    padding: 10px 20px;
+  }
   footer {
     flex-direction: column;
     gap: 20px;
