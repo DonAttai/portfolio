@@ -120,13 +120,16 @@ li:nth-child(4) a:hover {
   border-radius: 3px;
 }
 
-#first-line,
-#third-line {
+#first-line {
   font-size: 1.2rem;
+}
+#third-line {
+  font-size: 1rem;
 }
 #second-line {
   color: #00ffbb;
   font-size: 4rem;
+  padding-bottom: 10px;
 }
 
 .picture {
@@ -328,7 +331,8 @@ footer {
   }
 
   .intro {
-    padding: 10px 20px;
+    margin-top: 3rem;
+    padding: 20px;
   }
   footer {
     flex-direction: column;
