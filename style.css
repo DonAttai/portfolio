@@ -333,7 +333,15 @@ footer {
   display: flex;
   gap: 30px;
 }
-
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-facebook:hover {
+  color: #4267b2;
+}
+.fa-linkedin:hover {
+  color: #0072b1;
+}
 @media only screen and (max-width: 490px) {
   .main {
     margin-top: 85px;
